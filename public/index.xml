@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andy Mehalick</title>
+    <link>https://andy.mehalick.com/</link>
+    <description>Recent content on Andy Mehalick</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Jan 2020 08:05:26 +0300</lastBuildDate>
+    
+	<atom:link href="https://andy.mehalick.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://andy.mehalick.com/2020/01/18/my-first-post/</link>
+      <pubDate>Sat, 18 Jan 2020 08:05:26 +0300</pubDate>
+      
+      <guid>https://andy.mehalick.com/2020/01/18/my-first-post/</guid>
+      <description>Welcome to my site.
+var x = new List&amp;lt;int&amp;gt;(); </description>
+    </item>
+    
+  </channel>
+</rss>

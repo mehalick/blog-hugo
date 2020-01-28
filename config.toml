@@ -1,0 +1,14 @@
+baseURL = "https://andy.mehalick.com/"
+languageCode = "en-us"
+title = "Andy Mehalick"
+theme = "hello-friend"
+
+[permalinks]
+  posts = "/:year/:month/:day/:title/"
+
+[params]
+  author = "Andy Mehalick"
+  description = "A software development process and technology blog; a look at the tools and techniques for building better software."
+
+  [params.logo]
+  logoText = "Andy Mehalick"
