@@ -1,0 +1,131 @@
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr 64px;
+  background: transparent url("https://andy.azureedge.net/assets/page-background-635783262300817767.png") center center;
+  font-family: Muli, sans-serif;
+  color: #333;
+}
+
+nav,
+main,
+footer {
+  .inner {
+    margin: 15px;
+    max-width: 900px;
+    box-sizing: border-box;
+
+    @media (min-width: 930px) {
+        margin: 15px auto;
+    }
+  }
+}
+
+nav {
+  background: #000;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        display: inline-block;
+        margin: 0 12px 0 0;
+        padding-left: 18px;
+        background: transparent
+          url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 6"><style>.st0{fill:#BFD9E5;}</style><path class="st0" d="M0 0h6v6H0z"/></svg>')
+          left center no-repeat;
+        background-size: 6px;
+
+        &:first-child {
+          background: none;
+          padding-left: 0;
+        }
+
+        a {
+          color: white;
+          font-size: 1.2rem;
+          text-decoration: none;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+
+          &:first-letter {
+            font-size: 1.3em;
+          }
+
+          &:hover,
+          &.selected {
+            color: #bfd9e5;
+          }
+        }
+      }
+    }
+  }
+}
+
+main {
+  .inner {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    font-size: 1.7rem;
+
+    header {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      grid-gap: 15px;
+      margin-bottom: 15px;
+
+      h1,
+      h2 {
+        margin: 0 0 10px 0;
+        font-weight: normal;
+        text-shadow: 2px 2px 5px #999;
+      }
+
+      h1 {
+        font-family: "Atomic Age", serif;
+        font-size: 3.5rem;
+      }
+
+      h2 {
+        font-size: 1.2em;
+      }
+
+      hr {
+        border: 0;
+        height: 1px;
+        background-color: #bfd9e5;
+        margin: 20px 0;
+      }
+
+      img {
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+
+        @media (min-width: 480px) {
+          width: 140px;
+          height: 140px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+
+<body>
+    <nav>
+        <div class="inner">
+            {{- partial "header.html" . -}}
+        </div>
+    </nav>
+    <main>
+        <div class="inner">
+            <header>
+                <div>
+                    <h1>Andy Mehalick</h1>
+                    <h2>Software Engineer, Founder, CTO</h2>
+                    <hr />
+                </div>             
+                <div>
+                    <img src="https://andy.azureedge.net/assets/andy-mehalick-v2-280x280-bw-637099131735023584.jpg"
+                        alt="Andy Mehalick" width="140" height="140" />
+                </div>
+            </header>
+            <div id="content">
+                {{- block "main" . }}{{- end }}
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="inner">
+            {{- partial "footer.html" . -}}
+        </div>
+    </footer>
+</body>
+
+</html>

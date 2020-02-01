@@ -1,7 +1,7 @@
 baseURL = "https://andy.mehalick.com/"
 languageCode = "en-us"
 title = "Andy Mehalick"
-theme = "hello-friend"
+theme = "hello-andy"
 
 [permalinks]
   posts = "/:year/:month/:day/:title/"

@@ -1,0 +1,3 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Atomic+Age:400|Muli:400,700">
+{{ $style := resources.Get "css/main.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
